@@ -4,7 +4,8 @@ import Header from "./components/Header";
 import "./App.css";
 import Home from "./components/Home";
 import Detail from "./components/Detail";
-import profile from "./components/profile"
+import LoginPage from "./components/LoginPage";
+
 
 function App() {
   return (
@@ -12,18 +13,20 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
-            singh
-          </Route>
+        <Route path="/profile">
+          <LoginPage/>
+        </Route>
+          
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/">
+          <Home />
           </Route>
           <Route path="/detail/:id">
             <Detail />
           </Route>
-          <Route path="/profile">
-            <profile />
-          </Route>
+          
         </Switch>
       </Router>
     </div>

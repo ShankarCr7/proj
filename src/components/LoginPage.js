@@ -1,5 +1,5 @@
 import React from "react";
-import "./profile.css";
+import "./LoginPage.css";
 
 import { config } from "../Config";
 import { PublicClientApplication } from "@azure/msal-browser";
@@ -22,7 +22,7 @@ import {
   YahooLoginButton,
 } from "react-social-login-buttons";
 
-class profile extends Component {
+class LoginPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -79,4 +79,4 @@ class profile extends Component {
   }
 }
 
-export default profile;
+export default LoginPage;
