@@ -69,8 +69,11 @@ class LoginPage extends Component {
             <p></p>
           ) : (
             <p>
-              <button onClick={() => this.login()}>login </button>
+               
               <MicrosoftLoginButton onClick={() => this.login()} />
+              <GithubLoginButton/> 
+              <GoogleLoginButton/>
+              <LinkedInLoginButton/>
             </p>
           )}
         </header>

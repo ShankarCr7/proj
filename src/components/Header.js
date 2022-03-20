@@ -42,10 +42,12 @@ const Header = (props) => {
               <span>SHORTS</span>
             </a>
             <Link to="/profile">
-          <div className="header_option">
+          <a>
             <PermIdentityOutlinedIcon className="header_profile" />
-             
-          </div>
+             <span className="profile">
+               LOGIN
+             </span>
+          </a>
         </Link>
           </NavMenu>
           
@@ -68,7 +70,7 @@ const Nav = styled.nav`
   padding: 0 36px;
   letter-spacing: 16px;
   z-index: 3;
-`;
+  `
 
 const Logo = styled.a`
   padding: 0;
@@ -83,6 +85,7 @@ const Logo = styled.a`
     width: 100%;
   }
 `;
+
 
 const NavMenu = styled.div`
   align-items: center;

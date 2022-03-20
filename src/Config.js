@@ -3,4 +3,6 @@ export const config = {
     redirectUri: "http://localhost:3000/profile",
     scopes: ["user.read"],
     
+    authority:
+    "https://login.microsoftonline.com/9ddf32bc-e755-4316-a109-f285eaf1607b",
   };

@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/643f8495-1a8e-4507-85fc-20b43065f22e/resourceGroups/Live_Stream/providers/Microsoft.Web/sites/x-axis",
+    "appService.deploySubpath": "."
+}
